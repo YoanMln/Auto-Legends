@@ -1,0 +1,304 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.vp-login {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.left {
+  background-color: black;
+  margin-right: auto;
+  padding: 1rem;
+  margin-left: 5rem;
+}
+
+.login-img h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 2rem;
+  font-family: poppins;
+}
+
+.login-img p {
+  color: white;
+  padding: 0.5rem;
+  font-weight: lighter;
+  font-size: medium;
+  font-family: poppins;
+}
+
+.img-login {
+  width: 30rem;
+  margin-left: 5rem;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+}
+
+.container-login {
+  display: flex;
+}
+
+.right {
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 10rem 1rem 10rem;
+  margin-right: 20rem;
+}
+
+.vp-sign-in {
+  display: flex;
+  justify-content: center;
+  color: #986c2c;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  color: white;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.first-name {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+.last-name {
+  margin: 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  margin: 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+.username {
+  margin: 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+.password {
+  display: flex;
+  margin: 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+.conf-password {
+  margin: 1rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+}
+
+input::placeholder {
+  color: #986c2c;
+  font-family: Quicksand;
+}
+
+.btn-sign-in {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in {
+  background-color: #30343c;
+  border: 1px solid #986c2c;
+  border-radius: 5rem;
+  color: #986c2c;
+  padding: 1rem 5rem 1rem 5rem;
+  transition: 0.45s;
+  font-family: Quicksand;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.sign-in:hover {
+  color: wheat;
+  cursor: pointer;
+  background-color: #986c2c;
+  color: white;
+  border: 1.5px solid black;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.line span {
+  border-top: 1px solid #986c2c;
+  width: 10rem;
+  margin: 0 10px;
+}
+
+.line p {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Quicksand;
+}
+
+.sign-in-apple {
+  background-color: #30343c;
+  border: 1px solid #986c2c;
+  border-radius: 5rem;
+  color: #986c2c;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  transition: 0.45s;
+  font-family: Quicksand;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.sign-in-apple:hover {
+  color: wheat;
+  cursor: pointer;
+  background-color: #986c2c;
+  color: white;
+  border: 1.5px solid black;
+}
+
+.sign-in-apple i {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.footer-login {
+  background-color: #30343c;
+  padding: 1rem 1rem 5rem 1rem;
+}
+
+.network {
+  display: flex;
+  justify-content: center;
+}
+
+.fb {
+  margin: 1rem;
+}
+
+.insta {
+  margin: 1rem;
+}
+
+.pinterest {
+  margin: 1rem;
+}
+
+.yt {
+  margin: 1rem;
+}
+
+.in {
+  margin: 1rem;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.list ul {
+  display: flex;
+}
+
+.list-footer li {
+  padding: 1rem;
+  color: white;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.list-footer li a {
+  color: white;
+}
+
+.list-footer li:hover {
+  color: #986c2c;
+  cursor: pointer;
+}
+
+.list-footer li a:hover {
+  color: #986c2c;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: poppins;
+}
+
+.list-contact {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: poppins;
+  font-weight: lighter;
+}
+
+.list-contact1 {
+  display: flex;
+}
+
+.list-contact1 li {
+  padding: 1rem;
+}
+
+.list-contact1 li:hover {
+  color: #986c2c;
+  cursor: pointer;
+}
