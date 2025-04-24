@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sell {
+  background: url(./images/trade.jpg) center center / cover;
+  padding: 10rem 0 20rem 0;
+}
+
+.title-sell {
+  background-color: rgba(152, 108, 44, 0.6); /* fond noir transparent */
+  color: white;
+
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  max-width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.sell-choice {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.sell-choice {
+  margin-top: 1rem;
+  gap: 2px;
+}
+
+.custom-btn {
+  background-color: #986c2c;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  border: 1px solid #986c2c;
+  color: #986c2c;
+}
