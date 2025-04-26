@@ -13,4 +13,10 @@
   background-color: #71797e;
   color: white;
   text-align: center;
+  width: 80%;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
 }
