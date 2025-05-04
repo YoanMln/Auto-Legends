@@ -6,17 +6,29 @@
 
 .shop-home {
   background: url(./images/shop-vp.png) center center/cover;
-  padding: 10rem 0 20rem 0;
+  padding: 10rem 0 25rem 0;
 }
 
 .card {
   background-color: #71797e;
   color: white;
   text-align: center;
-  width: 80%;
+  width: 30%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
 }
 
 .col {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 60%;
+    margin-top: 2rem;
+  }
 }
