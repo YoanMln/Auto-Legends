@@ -1,0 +1,15 @@
+/* Petits écrans (téléphones) */
+@media (max-width: 480px) {
+}
+
+/* Tablettes en portrait */
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Tablettes en paysage et petits laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Ordinateurs et écrans larges */
+@media (min-width: 1025px) {
+}
