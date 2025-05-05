@@ -12,6 +12,7 @@
   font-size: 20px;
   text-align: center;
   padding-top: 5rem;
+  margin: 2px;
 }
 
 .btn-contact {
@@ -21,7 +22,11 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 15px;
-  padding: 20px 80px;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btnContact-container {
@@ -35,16 +40,29 @@
 .network-container {
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
   gap: 30px;
 }
 
 .network-btn {
-  padding: 20px 80px;
+  width: 200px;
+  height: 50px;
   border: 1px solid #986c2c;
   border-radius: 2px;
   color: #986c2c;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .network-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
 }
