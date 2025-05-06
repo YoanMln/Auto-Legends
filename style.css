@@ -43,6 +43,42 @@
   width: 15rem;
 }
 
+/*-----Nav-Bar-----*/
+
+.img-logo {
+  width: 7rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* répartit burger et menu */
+  background-color: #30343c;
+  padding: 1rem;
+  flex-wrap: wrap; /* pour permettre le retour à la ligne */
+}
+
+/* Burger button */
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Navigation links */
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+}
+
 /*-----Search-bar-----*/
 
 .search {
@@ -101,4 +137,31 @@
   background-color: #986c2c;
   border-color: #986c2c;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block; /* le burger devient visible */
+  }
+
+  .navLinks {
+    flex-direction: column;
+    width: 100%;
+    display: none; /* caché par défaut */
+    background-color: #30343c; /* même couleur que la navbar */
+  }
+
+  .navLinks.show {
+    display: flex; /* quand "show" est activé */
+  }
+
+  .navbar {
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navLinks a {
+    display: flex;
+    justify-content: end;
+  }
 }
