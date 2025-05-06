@@ -52,10 +52,10 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* répartit burger et menu */
+  justify-content: space-between;
   background-color: #30343c;
   padding: 1rem;
-  flex-wrap: wrap; /* pour permettre le retour à la ligne */
+  flex-wrap: wrap;
 }
 
 /* Burger button */
@@ -141,18 +141,18 @@
 
 @media (max-width: 768px) {
   .burger {
-    display: block; /* le burger devient visible */
+    display: block;
   }
 
   .navLinks {
     flex-direction: column;
     width: 100%;
-    display: none; /* caché par défaut */
-    background-color: #30343c; /* même couleur que la navbar */
+    display: none;
+    background-color: #30343c;
   }
 
   .navLinks.show {
-    display: flex; /* quand "show" est activé */
+    display: flex;
   }
 
   .navbar {
