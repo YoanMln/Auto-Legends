@@ -166,4 +166,8 @@
     max-width: 100%;
     height: auto;
   }
+
+  .navLinks {
+    background-color: #948979;
+  }
 }

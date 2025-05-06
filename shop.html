@@ -21,49 +21,23 @@
             Devenez <a href="#">membre</a> ou <a href="#">connectez-vous !</a>
           </p>
 
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+          <nav class="navbar">
+            <div class="logo-site">
               <img
+                class="img-logo"
                 src="./images/logo-white.png"
-                alt="logo du site auto legends"
-                style="width: 110px; height: 110px"
+                alt="logo du site Auto Legends"
               />
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menuBurger"
-                aria-controls="menuBurger"
-                aria-expanded="false"
-                aria-label="Menu"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="menuBurger">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="sell.html">Vente</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="vintage-heritage.html"
-                      >Vintage Héritage</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="shop.html">Boutique</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
             </div>
+            <button id="burgerBtn" class="burger">&#9776;</button>
+            <ul id="navLinks" class="navLinks">
+              <li><a href="index.html ">Home</a></li>
+              <li><a href="sell.html">Vente</a></li>
+              <li><a href="vintage-heritage.html">Vintage Classic</a></li>
+              <li><a href="shop.html">Boutique</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
           </nav>
         </section>
       </header>
@@ -138,5 +112,6 @@
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
+    <script src="dropDown-nav.js"></script>
   </body>
 </html>
